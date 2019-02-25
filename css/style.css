@@ -1,0 +1,200 @@
+body, html
+{
+    padding:0;
+    margin:0;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body
+{
+    font-display:  'Raleway', sans-serif;
+}
+a, a:hover
+{
+    text-decoration: none;
+    
+}
+.container-fluid
+{
+    padding: 0;
+}
+
+.separateur
+{
+    height: 3px;
+    width:50%;
+    border:none;
+    box-shadow: none;
+    background-color: pink;
+}
+/*header*/
+.header
+{
+    background-color: transparent;
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.menu
+{
+    float: right;
+}
+.menu a
+{
+    color:white;
+    margin-right: 20px;
+}
+
+.menu a:hover
+{
+    color:pink;
+}
+
+
+.banner
+{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban
+{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img
+{
+    width: 100%;
+    max-width: 100%;
+    background-size: 100% 100%;
+}
+
+
+.inner-banner
+{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+}
+.inner-banner h1
+{
+    color:white;
+    text-shadow: 1px 1px 20px white;
+    font-size:60px;
+}
+.inner-banner .btn-custom
+{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+.inner-banner .btn-custom:hover
+{
+    background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+
+#about
+{
+    text-align: center;
+    padding-top:3%;
+}
+
+.about article h2
+{
+    text-align: center;
+    
+}
+.about article p
+{
+    color:white;
+}
+
+.portofolio
+{
+    background-color: transparent;
+    height:500px
+}
+#portofolio
+{
+    text-align: center;
+    padding-top:3%;
+}
+
+
+.footer
+{
+    background-color: transparent;
+}
+
+.section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+  }
+  
